@@ -1,44 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meadowlark</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-    <nav>
-        <ul>
-            <li>
-                <a href="index.html">home</a>
-            </li>
-            <li>
-                <a href="meadowlark.html" class="current-page">meadowlark</a>
-            </li>
-            <li>
-                <a href="canary.html">canary</a>
-            </li>
-            <li>
-                <a href="rooster.html">most elusive bird</a>
-            </li>
-        </ul>
-    </nav>
-    <main>
-        <h1>
-            <!-- Bird name here -->
-        </h1>
-        <!-- Description of bird -->
-        <div>
-            <!-- Image of bird -->
-            <!-- Audio of bird -->
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Meadowlark</title>
+        <link rel="stylesheet" href="assets/css/style.css" />
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">home</a>
+                </li>
+                <li>
+                    <a href="meadowlark.html" class="current-page"
+                        >meadowlark</a
+                    >
+                </li>
+                <li>
+                    <a href="canary.html">canary</a>
+                </li>
+                <li>
+                    <a href="rooster.html">most elusive bird</a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <h1>
+                <!-- Bird name here -->
+                Meadowlark
+            </h1>
+            <!-- Description of bird -->
+            <p>
+                meadowlark, any member of the genus Sturnella, belonging to the
+                family Icteridae (order Passeriformes). Meadowlarks are
+                sharp-billed plump birds, 20 to 28 cm (8 to 11 inches) long. The
+                two species in North America look alike: streaked brown above,
+                with yellow breast crossed by a black V and a short tail with
+                distinctive white outer feathers. The eastern, or common,
+                meadowlark (S. magna) ranges from eastern Canada to Brazil, the
+                western meadowlark (S. neglecta) from western Canada to Mexico
+                (introduced to Hawaii). The former has a simple four-note
+                whistle and the latter an intricate fluting. Meadowlarks consume
+                insects in summer and weed seeds in fall and winter. The nest is
+                a grass dome hidden in a field.
+            </p>
             <div>
-                <h4>Image credit: <a href="https://commons.wikimedia.org/wiki/File:Western_Meadowlark_-_Oregon_-_USA_S4E9863_(23593630930).jpg">Wikimedia</a> Audio credit: <a href="http://soundbible.com/2180-Meadowlark.html">SoundBible</a></h4>
+                <!-- Image of bird -->
+                <img
+                    src="assets/images/western-meadowlark.jpg"
+                    alt="Meadowlark"
+                />
+                <!-- Audio of bird -->
+                <div>
+                    <audio controls>
+                        <source src="assets/sounds/meadowlark.mp3" />
+                        <source src="assets/sounds/meadowlark.wav" />
+                        If you can't see audio controls your browser does not
+                        support HTML5 audio.
+                    </audio>
+                </div>
+                <div>
+                    <h4>
+                        Image credit:
+                        <a
+                            href="https://commons.wikimedia.org/wiki/File:Western_Meadowlark_-_Oregon_-_USA_S4E9863_(23593630930).jpg"
+                            >Wikimedia</a
+                        >
+                        Audio credit:
+                        <a href="http://soundbible.com/2180-Meadowlark.html"
+                            >SoundBible</a
+                        >
+                    </h4>
+                </div>
             </div>
-        </div>
-        <div>
-            <h2>Video on Youtube</h2>
-            <!-- video iframe here -->
-        </div>
-    </main>
-</body>
+            <div>
+                <h2>Video on Youtube</h2>
+                <!-- video iframe here -->
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/3o0FC7aqg94"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                ></iframe>
+            </div>
+        </main>
+    </body>
 </html>
